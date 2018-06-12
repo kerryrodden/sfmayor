@@ -1,0 +1,90 @@
+:root {
+  --background-color: #fff;
+  --primary-text-color: #333;
+  --secondary-text-color: #999;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.5rem;
+  background-color: var(--background-color);
+  margin: 30px;
+  color: var(--primary-text-color);
+  width: 800px;
+}
+
+text {
+  font-size: 13px;
+}
+
+h1 {
+  font-family: "Lora", serif;
+}
+
+footer {
+  font-size: 13px;
+  color: var(--secondary-text-color);
+}
+
+a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--secondary-text-color);
+}
+
+#content {
+  position: relative;
+}
+
+.carryover {
+  stroke: rgb(95%, 95%, 95%);
+  fill: none;
+}
+
+.transfer {
+  stroke-opacity: 0.55;
+  fill: none;
+}
+
+.transfer-percentage {
+  font-size: 11px;
+}
+
+.votes {
+  fill-opacity: 0.8;
+}
+
+.finalist {
+  position: absolute;
+  text-align: center;
+  font-weight: 600;
+}
+
+.finalist p {
+  margin: 2px auto;
+}
+
+.finalist .percentage {
+  font-size: 1.5rem;
+}
+
+.photo {
+  width: 80px;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.eliminated-label,
+.round-label {
+  fill: var(--secondary-text-color);
+}
+
+.faded {
+  opacity: 0.2;
+}
+
+.hidden {
+  visibility: hidden;
+}
