@@ -44,7 +44,7 @@ function visualizeData(rawVotes, rawTransfers) {
     .sortValues((a, b) => d3.ascending(sortOrder.indexOf(a.candidate), sortOrder.indexOf(b.candidate)))
     .entries(votes);
 
-  // Determine the
+  // Determine the y extents of each candidate's bar in each round
   votesByRound.forEach((round) => {
     let cumulativeVotes = 0;
     round.values.forEach((candidate) => {
